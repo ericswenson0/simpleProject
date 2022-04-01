@@ -9,7 +9,7 @@ const socketio = require('@feathersjs/socketio');
 class MessageService {
   constructor() {
     this.messages = [];
-  }//change
+  }
 
   async find () {
     // Just return all our messages
